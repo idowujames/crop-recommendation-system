@@ -1,0 +1,17 @@
+name: crop-recommendation
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - bottleneck
+  - pip:
+      - numpy
+      - pandas
+      - ipykernel
+      - ipython
+      - jupyter-client
+      - jupyter-core
+      - matplotlib
